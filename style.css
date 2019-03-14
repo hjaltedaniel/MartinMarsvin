@@ -1,0 +1,392 @@
+
+* {
+    /* Fjern Default Margin */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+      
+/* Background Gradient */
+background-repeat: no-repeat;
+background: #008ad0; /* Old browsers */
+background: -moz-linear-gradient(top,  #008ad0 0%, #ffffff 100%) fixed; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #008ad0 0%,#ffffff 100%) fixed; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #008ad0 0%,#ffffff 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ad0', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+button {
+    /* Knabber */
+    background: #3498db;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1f3b4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5%;
+    display: block;
+    width: 90%;
+    border: none;
+}
+
+#billede_bund {
+    /* Billede i bund med sæler, inverted */
+    display: none;
+    filter: invert(100%);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#martin_logo {
+   width: 100%;
+}
+#martin {
+    width: 100%;
+}
+form {
+    text-align: center;
+}
+#fjordbaelt {
+    margin: auto;
+    display: block;
+}
+#igen {
+    float: right;
+}
+#reception {
+  /* billede hvid kant/border */ 
+    border: 8px solid white;
+    /* Runde kanter */
+    border-radius: 10px;
+  
+}
+#selfie {
+  /* billede hvid kant/border */ 
+    border: 8px solid white;
+    /* Runde kanter */
+    border-radius: 10px;  
+}
+#box {
+    /* billede hvid kant/border */ 
+    border: 13px solid white;
+    /* Runde kanter */
+    border-radius: 10px;
+
+}
+#container {
+    display: flex;
+    padding-left: 15%;
+}
+#dykker {
+    transform: rotate(90deg);
+      /* billede hvid kant/border */ 
+    border: 8px solid white;
+    /* Runde kanter */
+    border-radius: 10px;  
+}
+
+h1 {
+    /* Overskrifter */ 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  /* Overskrifter */ 
+    color: white;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+input {
+    /* Input Text */
+    width: 225px;
+    height: 30px;
+    
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+/*Quiz-section*/
+
+.quiz h2 {
+    text-align: center;
+}
+
+#question1 {
+    display:none;
+}
+
+#question2 {
+    display: none;
+}
+
+#question3 {
+    display: none;
+}
+
+#quizIntro {
+    display: block;
+}
+
+#rightAnswer1Page {
+    display: none;
+}
+
+#rightAnswer2Page {
+    display: none;
+}
+
+#rightAnswer3Page {
+    display: none;
+}
+
+#finishAnswerPage {
+    display: none;
+}
+
+.quizCam {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+img#charPic {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#staticIntro {
+    
+}
+
+img#repeatBtn {
+    width: 70px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}    
+
+#staticIntro h1 {
+    text-align: center;
+}
+.quizCam + label {
+    background: #3498db;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1f3b4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5%;
+    display: block;
+}
+
+input#qrScan {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+input#qrScan1 {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/*navigation */
+
+.menucontainer {
+    position: fixed;
+    bottom: 0;
+    background-color: #0078B2;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menubaricons {
+    display: flex;
+    justify-content: center;
+}
+
+.menubaricons img {
+    padding-left: 2.1em;
+    padding-right: 2.4em;
+}
+
+#martin_logo {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#martin {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+input[type="submit"] {
+    /* Knabber */
+    background: #3498db;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1f3b4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5%;
+    display: block;
+    width: 90%;
+    height: 10%;
+    border: none;
+}
+
+input#name {
+    width: 85%;
+    padding: 10px;
+}
+
+a#button {
+    background: #3498db;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1f3b4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5%;
+    display: block;
+    text-align: center;
+}
+
+#qrScan1 + label {
+    background: #3498db;
+    border-radius: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1f3b4d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5%;
+    display: block;
+}
+
+.map {
+    padding: 2%;
+}
+
+.themap {
+
+}
+
+.fotogalleri {
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    
+}
+
+.gallery {
+    border: 2px solid white;
+    float: left;
+    margin: 1%;
+    height: 102px;
+    width: 45%;
+    background-color: grey;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+
+
+
+
+/*Animal view*/
+
+.animalview img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /* billede hvid kant/border */ 
+    border: 8px solid white;
+    /* Runde kanter */
+    border-radius: 10px;
+}
+
+.info {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    float: left;
+    margin-top: 4%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.backbutton {
+    margin: 0;
+}
+
+#header img {
+    filter: invert();
+}

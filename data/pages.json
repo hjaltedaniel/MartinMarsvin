@@ -1,0 +1,78 @@
+{
+    "pages": [
+        {
+            "id": "landing",
+            "title": "Velkommen til",
+            "desc": "Martin Marsvin",
+            "include": "landing.php",
+            "sound": "assets/sound/theme.mp3",
+            "menuTitle": "Landingside",
+            "headline": "",
+            "bodyText": ""
+        },
+        {
+            "id": "begin",
+            "title": "Startside",
+            "desc": "Her kan du starte spillet",
+            "sound": "assets/sound/intro/intro.mp3",
+            "headerInc": "header.php",
+            "menuTitle": "Start",
+            "headline": "",
+            "bodyText": "",
+            "include": "animation/ani_intro.html"
+        },
+        {
+            "id": "reception",
+            "title": "Gå til receptionen",
+            "desc": "Her kan du starte spillet",
+            "sound": "assets/sound/intro/instr1.mp3",
+            "headerInc": "header.php",
+            "menuTitle": "Gå til reception",
+            "headline": "",
+            "bodyText": "",
+            "include": "reception.php"
+        },
+        {
+            "id": "start",
+            "title": "Spillets regler",
+            "desc": "Her hører du martin forklare reglerne",
+            "sound": "assets/sound/intro/regler.mp3",
+            "headerInc": "header.php",
+            "menuTitle": "Regler",
+            "headline": "",
+            "bodyText": "",
+            "include": "animation/ani_regler.html"
+        },
+        {
+            "id": "dykker",
+            "title": "Du har samlet alle dyr",
+            "desc": "Alle dyr er samlet, gå til dykkeren",
+            "sound": "assets/sound/outro/intro.mp3",
+            "headerInc": "header.php",
+            "menuTitle": "",
+            "headline": "",
+            "bodyText": "",
+            "include": "dykker.php"
+        },
+        {
+            "id": "end",
+            "title": "Tillykke",
+            "desc": "Tak for hjælpen",
+            "sound": "assets/sound/outro/outro.mp3",
+            "headerInc": "header.php",
+            "menuTitle": "",
+            "headline": "",
+            "bodyText": "",
+            "include": "diplom.php"
+        },
+        {
+            "id": "error",
+            "title": "Fejl",
+            "desc": "",
+            "menuTitle": "",
+            "headline": "",
+            "bodyText": "",
+            "include": "error.php"
+        } 
+    ]
+} 

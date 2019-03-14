@@ -1,0 +1,31 @@
+{
+    "animals": [
+        {
+            "id": "seal",
+            "title": "Sæl",
+            "desc": "Side med info om sæler",
+            "menuTitle": "Søren Sæl",
+            "charPic": "assets/images/charPic/seal.png",
+            "headline": "Sæler",
+            "bodyText": "<p>Sæler kan en hel masse, og her kan der faktisk komme meget mere tekst end her er nu.</p>"
+        },
+        {
+            "id": "crab",
+            "title": "Krabbe",
+            "desc": "Side med info om sæler",
+            "menuTitle": "Søren Sæl",
+            "charPic": "assets/images/charPic/crab.png",
+            "headline": "Krabber",
+            "bodyText": "<p>Sæler kan en hel masse, og her kan der faktisk komme meget mere tekst end her er nu.</p>"
+        },
+        {
+            "id": "redspaet",
+            "title": "Rødspætte",
+            "desc": "Side med info om sæler",
+            "menuTitle": "Søren Sæl",
+            "charPic": "assets/images/charPic/redspaet.png",
+            "headline": "Rødspætter",
+            "bodyText": "<p>Sæler kan en hel masse, og her kan der faktisk komme meget mere tekst end her er nu.</p>"
+        }
+    ]
+} 

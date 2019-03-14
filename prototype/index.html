@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Martin Marsvin Demo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Demonstration af appen Martin Marsvin udviklet til Fjord&Bælt" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+		<script type="text/javascript" src="biomp.js"></script>
+
+		<script type="text/javascript">
+			window.addEventListener('DOMContentLoaded', function() {
+
+				// Front facing
+				bioMp(document.getElementById('demo_front'), {
+					url: 'forside.html',
+					view: 'front',
+					image: 'images/iphone6_front_white.png',
+					scale: 0.7
+				});
+
+				// Right facing
+			});
+		</script>
+		
+		<style type="text/css">
+			#content {top: 0; transform: translateY(0%);}
+            p a {font-family: 'Open Sans', sans-serif; font-size: 12px; text-decoration: none; color: darkgrey; text-align: center;}
+			#content h1 {margin: 30px 0 0 0; padding: 0;font-size: 30px;}
+			#content a {display: block;}
+			#demo_left, #demo_front, #demo_right {margin-left: auto;margin-right: auto;display: block;}
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="content">
+			<div id="demo">
+				<div id="demo_front"></div>
+			</div>
+			 <p><a href="QR-koder.zip">Klik her for at hente pakke med QR-koder til prototypen</a></p>
+		</div>
+	</body>
+</html>
